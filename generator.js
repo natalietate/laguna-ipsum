@@ -75,14 +75,14 @@ function GenerateNewText() {
 // method using the constructor to generate a random sentence 
 
 GenerateNewText.prototype.getRandomSentence = function() {
-  let randomSentence = this.sentences[Math.floor(Math.random() * this.sentences.length)]
+  let randomSentence = this.sentences[Math.floor(Math.random() * this.sentences.length)];
     return randomSentence;
-}
+};
 
 // method using the constructor to generate a paragraph from random sentences
 
 GenerateNewText.prototype.getParagraph = function() {
-  let paragraph = ""
+  let paragraph = '';
   let minimumCharacterLength = 250;
   let firstSentence = true;
 
@@ -91,11 +91,11 @@ GenerateNewText.prototype.getParagraph = function() {
       paragraph = paragraph.concat(this.getRandomSentence());
       firstSentence = false;
     } else {
-      paragraph = paragraph.concat(" " + this.getRandomSentence());
+      paragraph = paragraph.concat(' ' + this.getRandomSentence());
     }
   }
   return paragraph;
-}
+};
 
 // method using constructor to generate multiple paragraphs
 
@@ -106,12 +106,12 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
     allParagraphs.push(this.getParagraph());
   }
   // convert array into HTML string for styling
-  let paragraphHTML = "";
+  let paragraphHTML = '';
   allParagraphs.forEach(function (paragraph) {
-    paragraphHTML += "<p>" + paragraph + "</p>";
+    paragraphHTML += '<p>' + paragraph + '</p>';
   });
-  return paragraphHTML
-}
+  return paragraphHTML;
+};
 
 // lets us require this in app.js
-module.exports = loremIpsum
+module.exports = loremIpsum;
