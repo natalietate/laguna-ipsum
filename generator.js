@@ -49,7 +49,7 @@ function GenerateNewText() {
     'I’m not staying here. I’m not gonna stay in Laguna Beach, you know?',
     'This is gonna be an adventure for me. Do you think Stephen could be in a jealous rage again?',
     'Last night with Stephen was really, really weird.',
-    'MI wanna leave so bad. I’m not trying to bring anything up, but there’s so many things I wish I could take back and just like not have happened.',
+    'I wanna leave so bad. I’m not trying to bring anything up, but there’s so many things I wish I could take back and just like not have happened.',
     'My car is dunzo!',
     'Art School, Fashion School whatever.',
     'There\'s no way I\'m going to hook up with LC!',
