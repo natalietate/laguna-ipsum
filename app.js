@@ -8,7 +8,7 @@ const routes = require('./router');
 
 // Define the hostname and port where the server can be found
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Define the directory where static files (images, html, css) are found
 // saved in /public folder
