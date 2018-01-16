@@ -6,21 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Laguna Beach Lorem Ipsum Generator</title>
   <link rel="stylesheet" href="styles.css" text="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 </head>
-<body>
-  <h1 class='title'>Laguna Beach Lorem Ipsum Generator</h1>
 
-  <p class='description'>Just another silly lorem ipsum generator...except this one uses quotes from the MTV classic Laguna Beach</p>
+<body id="background">
+  <div class="">
+    <h1 class="title text-center">Laguna Beach Lorem Ipsum Generator</h1>
 
-  <form action='/' method='POST'>
-    <input type='number' name='numberOfParagraphs' class='paragraph-number'>
-    <input type='submit' value='Generate' class='generate-button'>
-  </form>
+    <p class="lead text-center">Just another silly lorem ipsum generator...except this one uses quotes from the MTV classic Laguna Beach</p>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-sm">
+          <p>Enter the number of paragraphs you'd like to generate:</p>
+        </div>
+        <div class="col-sm">
+          <form action='/' method='POST'>
+            <input type='number' name='numberOfParagraphs' class='paragraph-number'>
+            <input type='submit' value='Generate' class='generate-button'>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
 
-  <div class='generated-text'>
-    <div class='placeholder'></div>
-  </div>
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="generated-text card">
+          <div class="card-body">
+            <div class='placeholder'></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  <!-- JavaScripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
