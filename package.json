@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "lorem ipsum",
+    "text",
+    "random words",
+    "laguna beach"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +20,8 @@
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
-  }
+  },
+    "engines": {
+      "node": "8.9.1"
+    },
 }
