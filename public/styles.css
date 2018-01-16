@@ -1,4 +1,21 @@
-#background {
-  background: url('../img/denys-nevozhai.jpg') no-repeat 50% 50% fixed;
+body {
+	background: url('../img/alexey-marchenko.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+}
+
+.my-background {
+  background-color: rgba(217, 228, 240, 0.5);
+  color: inherit;
+}
+
+.lb-main {
+  font-family: 'Josefin Sans', sans-serif;  
+}
+
+input[type=number] {
+    border: 2px solid rgb(245, 171, 206);
+    border-radius: 4px;
 }
